@@ -81,11 +81,6 @@ public:
     std::vector<std::vector<double> > internal_array; // For now just store an array of values
     std::vector<unsigned int> color_array; // Every value array has a color for now
 
-    void add(GanjaScene other){
-         GanjaScene gs = GanjaScene();
-         
-    }
-
     void add_object(std::vector<double> object_array, unsigned int color=0xAA000000){
         mv_length = (unsigned int) object_array.size();
         internal_array.push_back(object_array);
