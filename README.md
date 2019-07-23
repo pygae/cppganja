@@ -1,5 +1,5 @@
 # cppganja - C++ interface to ganja.js
-A very simple/limited interface to [ganja.js](git@github.com:hugohadfield/cppganja.git) written for c++
+A very simple/limited interface to [ganja.js](github.com/hugohadfield/cppganja) written for c++
 
 # Interface example
 
