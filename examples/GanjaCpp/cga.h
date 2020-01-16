@@ -608,7 +608,7 @@ inline CGA operator + (const CGA &a, const float &b) {
 };
 
 
-inline float CGA::norm() { return sqrt(fabs(((*this)*Conjugate()).mvec[0])); }
+inline float CGA::norm() { return sqrt(std::abs(((*this)*Conjugate()).mvec[0])); }
 inline float CGA::inorm() { return (!(*this)).norm(); }
 inline CGA CGA::normalized() { return (*this) * (1/norm()); }
 
